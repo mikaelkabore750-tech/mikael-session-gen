@@ -1,5 +1,0 @@
-name: mikael-session-gen
-dockerfile_path: Dockerfile
-ports:
-  - port: 8000
-    protocol: HTTP
