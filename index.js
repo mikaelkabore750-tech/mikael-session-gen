@@ -25,6 +25,13 @@ Don't Forget To Give Star MikaelDev bots
 
  Server running on http://localhost:` + PORT)
 })
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`
+Don't Forget To Give Star MikaelDev bots
 
+ Server running on port ${PORT}
+ http://localhost:${PORT} (local only)
+ Deployed URL will be shown in Koyeb/Railway dashboard`)
+})
 module.exports = app
                    
