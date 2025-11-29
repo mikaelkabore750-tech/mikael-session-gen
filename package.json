@@ -19,7 +19,7 @@
     "hoistingLimits": "workspaces"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.10",
+    "@whiskeysockets/baileys": "6.7.10",
     "qrcode": "^1.5.4",
     "awesome-phonenumber": "7.2.0",
     "pino": "9.5.0",
