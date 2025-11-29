@@ -1,0 +1,6 @@
+{
+  "build": {
+    "builder": "DOCKERFILE"
+  },
+  "start": "npm start"
+}
