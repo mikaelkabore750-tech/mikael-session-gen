@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mikael-session-gen
+    region: oregon
+    plan: free
+    branch: main
+    autoDeploy: true
+    env: docker          # ← Render utilise ton Dockerfile
+    dockerfilePath: ./Dockerfile
