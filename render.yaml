@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: MIKAEL-Dev-pair-site
-    env: docker
-    plan: free
-    branch: main
-    repo: https://github.com/https://github.com/mikaelkabore750-tech/mikael-session-gen
-    dockerfilePath: ./Dockerfile
-    autoDeploy: true
