@@ -24,5 +24,8 @@
     "express": "^4.21.2",
     "path": "^0.12.7",
     "megajs": "^1.3.5"
+    "type": "module",
+  "installConfig": {
+    "hoistingLimits": "workspaces"
   }
 }
